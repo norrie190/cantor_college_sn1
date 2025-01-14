@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; 
+  background-color: #f0e0c2;         
+  color: #000000;                    
+}
+/* Style for tablets */
+@media (max-width: 768px) {
+  header {
+    background-color: #CB8C06; 
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+/* Style for mobile phone */
+@media (max-width: 480px) {
+  header {
+    background-color: #CB8C06; 
+  }
+
+  .container {
+    padding: 5px;
+  }
+
+  .header-text {
+    font-size: 14px; 
+  }
+
+  .some-element {
+    font-size: 12px; 
+  }
+}
+
