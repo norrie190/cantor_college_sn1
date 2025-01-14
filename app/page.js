@@ -21,19 +21,27 @@ async function fetchCourses() {
   return courses;
 }
 
+const carouselImages = [ 
+
+  '/cantorcampus.jpg', 
+
+  '/cantor.atrium1.jpg', 
+
+  '/cantor.atrium2.jpg', 
+
+  '/cantor.lecture1.JPG', 
+
+  '/cantor.main1.png', 
+
+]; 
+
 export default async function Home() {
   const courses = await fetchCourses();
 
   console.log(courses); 
 
 
-  const carouselImages = [
-    '/cantorcampus.jpg',
-    '/cantor.atrium1.jpg',
-    '/cantor.atrium2.jpg',
-    '/cantor.lecture1.JPG',
-    '/cantor.main1.png',
-  ];
+
 
 
     return (
